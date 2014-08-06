@@ -78,7 +78,7 @@ module.exports = function(data, config) {
   config.mylayout = config.mylayout || {};
   config.mylayout.sortSubgroups = config.mylayout.sortSubgroups || d3.descending;
   config.mylayout.sortChords = config.mylayout.sortChords || d3.descending;
-  config.mylayout.threshold = config.mylayout.threshold || 3500;
+  config.mylayout.threshold = config.mylayout.threshold || 1000;
   config.mylayout.labelThreshold = config.mylayout.labelThreshold || 15000;
 
   config.maxRegionsOpen = config.maxRegionsOpen || 2;
